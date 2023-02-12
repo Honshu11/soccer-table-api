@@ -1,0 +1,84 @@
+body {
+    background-color: #dde;
+}
+
+body > div {
+    display: none;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: auto;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+footer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 2.5rem;
+}
+
+footer > p {
+    font-size: xx-small;
+}
+
+.team-selection-container {
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+.team-selection-container > * {
+    flex: 2;
+    width: 500px;
+    height: 500px;
+    overflow: scroll;
+}
+
+
+#compare-button {
+    display: block;
+    margin: auto;
+}
+
+.logo {
+    height: 20px;
+    width: 20px;
+}
+
+.dropdown ul {  /*styling inside dropdown*/
+    padding: 2em 3em;
+    margin: 20px 50px;
+    border-radius: 20px;
+    border: 1px solid #bbb;
+    box-shadow: 1px 1px 1px 1px #bbb;
+    background-color: white;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-height: 450px;
+}
+
+.dropdown h2 {
+    text-align: center;
+}
+
+.dropdown {
+    overflow: hidden;
+}
